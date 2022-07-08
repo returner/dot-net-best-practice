@@ -5,11 +5,19 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringBuilder", "StringBuilder\StringBuilder.csproj", "{BC75CB43-ABE7-4D33-AFA9-A67FC2A7CF57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using", "Using\Using.csproj", "{819A0034-36F2-4610-813A-FEE721D0C1BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Using", "Using\Using.csproj", "{819A0034-36F2-4610-813A-FEE721D0C1BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwait", "AsyncAwait\AsyncAwait.csproj", "{C2945313-747F-4A39-8F41-A592DDFF1A0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncAwait", "AsyncAwait\AsyncAwait.csproj", "{C2945313-747F-4A39-8F41-A592DDFF1A0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multithreading", "Multithreading\Multithreading.csproj", "{7E42294C-3A91-4035-985C-7B97257642E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multithreading", "Multithreading\Multithreading.csproj", "{7E42294C-3A91-4035-985C-7B97257642E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "async vs multithreading", "async vs multithreading", "{F089988D-47F8-4FC6-B71C-94D6B734CB19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gRpc", "gRpc", "{45CA55FD-051D-4936-A90B-339A0E8AE829}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcGreet", "GrpcGreet\GrpcGreet.csproj", "{051D10E1-EB6D-4C76-8B2E-3053F74EB28F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcClient", "GrpcClient\GrpcClient.csproj", "{288972A4-1AD0-4EA7-94F2-991B0B319F93}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,9 +41,23 @@ Global
 		{7E42294C-3A91-4035-985C-7B97257642E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E42294C-3A91-4035-985C-7B97257642E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E42294C-3A91-4035-985C-7B97257642E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{051D10E1-EB6D-4C76-8B2E-3053F74EB28F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{051D10E1-EB6D-4C76-8B2E-3053F74EB28F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{051D10E1-EB6D-4C76-8B2E-3053F74EB28F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{051D10E1-EB6D-4C76-8B2E-3053F74EB28F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{288972A4-1AD0-4EA7-94F2-991B0B319F93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{288972A4-1AD0-4EA7-94F2-991B0B319F93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{288972A4-1AD0-4EA7-94F2-991B0B319F93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{288972A4-1AD0-4EA7-94F2-991B0B319F93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C2945313-747F-4A39-8F41-A592DDFF1A0A} = {F089988D-47F8-4FC6-B71C-94D6B734CB19}
+		{7E42294C-3A91-4035-985C-7B97257642E9} = {F089988D-47F8-4FC6-B71C-94D6B734CB19}
+		{051D10E1-EB6D-4C76-8B2E-3053F74EB28F} = {45CA55FD-051D-4936-A90B-339A0E8AE829}
+		{288972A4-1AD0-4EA7-94F2-991B0B319F93} = {45CA55FD-051D-4936-A90B-339A0E8AE829}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {107E1050-390F-45B2-BDC0-F171DF26A5F0}
