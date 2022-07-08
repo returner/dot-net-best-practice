@@ -2,21 +2,21 @@
 {
     public void FirstMethod()
     {
-        Console.WriteLine("First Method on Thread with Id: " + Thread.CurrentThread.ManagedThreadId);
+        Console.WriteLine("First Method on Thread with Id: " + Environment.CurrentManagedThreadId);
         Thread.Sleep(1000);
         Console.WriteLine("First Method Continuation on Thread with Id: " + Thread.CurrentThread.ManagedThreadId);
     }
     public void SecondMethod()
     {
-        Console.WriteLine("Second Method on Thread with Id: " + Thread.CurrentThread.ManagedThreadId);
+        Console.WriteLine("Second Method on Thread with Id: " + Environment.CurrentManagedThreadId);
         Thread.Sleep(1000);
         Console.WriteLine("Second Method Continuation on Thread with Id: " + Thread.CurrentThread.ManagedThreadId);
     }
     public void ThirdMethod()
     {
-        Console.WriteLine("Third Method on Thread with Id: " + Thread.CurrentThread.ManagedThreadId);
+        Console.WriteLine("Third Method on Thread with Id: " + Environment.CurrentManagedThreadId);
         Thread.Sleep(1000);
-        Console.WriteLine("Third Method Continuation on Thread with Id: " + Thread.CurrentThread.ManagedThreadId);
+        Console.WriteLine("Third Method Continuation on Thread with Id: " + Environment.CurrentManagedThreadId);
     }
 
     public void ExecuteMultithreading()
