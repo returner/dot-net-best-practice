@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Healthcheck\Web\Web.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HealthChecksSample", "Healthcheck\HealthChecksSample\HealthChecksSample.csproj", "{8A65A925-3C59-48EA-A3F7-B8247D8161F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "DesignPatterns\AdapterPattern\AdapterPattern.csproj", "{DA3F67BB-C15F-419D-9F9D-00C9FE2FA0B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +79,10 @@ Global
 		{8A65A925-3C59-48EA-A3F7-B8247D8161F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A65A925-3C59-48EA-A3F7-B8247D8161F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A65A925-3C59-48EA-A3F7-B8247D8161F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA3F67BB-C15F-419D-9F9D-00C9FE2FA0B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA3F67BB-C15F-419D-9F9D-00C9FE2FA0B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA3F67BB-C15F-419D-9F9D-00C9FE2FA0B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA3F67BB-C15F-419D-9F9D-00C9FE2FA0B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +96,7 @@ Global
 		{E8BCAE79-1EE3-403A-90C7-1D5BF4626D41} = {CC1799CE-EB91-46B8-9160-39B80679EC32}
 		{2A652B23-BB16-4C4F-BA87-D269D21945A8} = {007D4B2E-25CB-48AC-B367-A44924F951CE}
 		{8A65A925-3C59-48EA-A3F7-B8247D8161F4} = {007D4B2E-25CB-48AC-B367-A44924F951CE}
+		{DA3F67BB-C15F-419D-9F9D-00C9FE2FA0B8} = {CC1799CE-EB91-46B8-9160-39B80679EC32}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {107E1050-390F-45B2-BDC0-F171DF26A5F0}
