@@ -53,6 +53,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RxWithController", "Reactiv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleReactive", "Reactive\SimpleReactive\SimpleReactive.csproj", "{CD32FFFB-FC21-4561-BB52-3ABDD1BFC04E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rx.NetinAction", "Rx.NetinAction", "{692A6188-9CB1-4E22-ADE0-F002108E9C2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockTickerApp", "Reactive\Rx.netInAction\StockTickerApp\StockTickerApp.csproj", "{0EC7A5E5-C025-4C37-9D26-1231708B8979}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -130,6 +134,10 @@ Global
 		{CD32FFFB-FC21-4561-BB52-3ABDD1BFC04E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD32FFFB-FC21-4561-BB52-3ABDD1BFC04E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD32FFFB-FC21-4561-BB52-3ABDD1BFC04E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EC7A5E5-C025-4C37-9D26-1231708B8979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EC7A5E5-C025-4C37-9D26-1231708B8979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EC7A5E5-C025-4C37-9D26-1231708B8979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EC7A5E5-C025-4C37-9D26-1231708B8979}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -153,6 +161,8 @@ Global
 		{0666E653-F0E8-43AB-8B35-684E8436BF57} = {3F660D8B-5030-472D-92D8-97476E886B9E}
 		{8C94D782-C096-47B9-B41C-50AED7E2EF37} = {3F660D8B-5030-472D-92D8-97476E886B9E}
 		{CD32FFFB-FC21-4561-BB52-3ABDD1BFC04E} = {3F660D8B-5030-472D-92D8-97476E886B9E}
+		{692A6188-9CB1-4E22-ADE0-F002108E9C2A} = {3F660D8B-5030-472D-92D8-97476E886B9E}
+		{0EC7A5E5-C025-4C37-9D26-1231708B8979} = {692A6188-9CB1-4E22-ADE0-F002108E9C2A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {107E1050-390F-45B2-BDC0-F171DF26A5F0}
