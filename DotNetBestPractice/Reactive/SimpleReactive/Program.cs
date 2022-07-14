@@ -1,21 +1,33 @@
-﻿using System.Reactive.Linq;
+﻿using System;
+using System.Reactive.Linq;
 
-IObservable<string> obj = Observable.Generate(0,
-    _ => true,
-    i => i + 1,
-    i => new string('#', i),
-    i => TimeSelector(i)
-    );
+var o = Observable.CombineLatest(
+        Observable.StartAsync(Test1),
+        Observable.StartAsync(Test2),
+        Observable.StartAsync(Test3)
+    ).Finally(()=> Console.WriteLine("End"));
 
-
-
-using (obj.Subscribe(Console.WriteLine))
+foreach (var item in await o.FirstAsync())
 {
-    Console.WriteLine("Preass any key");
-    Console.ReadKey();
+    Console.WriteLine(item);
 }
 
 
-TimeSpan TimeSelector(int i){
-    return TimeSpan.FromSeconds(i);
+static async Task<string> Test1()
+{
+    await Task.CompletedTask;
+
+    return "A";
+}
+
+static async Task<string> Test2()
+{
+    await Task.CompletedTask;
+    return "B";
+}
+
+static async Task<string> Test3()
+{
+    await Task.CompletedTask;
+    return "C";
 }

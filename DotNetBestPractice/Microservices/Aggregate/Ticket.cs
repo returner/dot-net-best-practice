@@ -32,7 +32,7 @@ namespace Aggregate
 
         public static ResultWithAggregateEvents<Ticket, TicketDomainEvent> Create(int id, TicketDetails details)
         {
-            return new ResultWithAggregateEvents(new Ticket(id, details), new TickerCreatedEvent(id, details);
+            return new ResultWithAggregateEvents(new Ticket(id, details), new TickerCreatedEvent(id, details));
         }
 
         public List<TicketPreparationStartedEvent> Preparing() {

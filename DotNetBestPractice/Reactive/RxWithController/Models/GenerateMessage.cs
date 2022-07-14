@@ -1,4 +1,4 @@
 ﻿namespace RxWithController.Models
 {
-    public record GenerateMessage(string message) : IDisposable;
+    public record GenerateMessage(string message);
 }

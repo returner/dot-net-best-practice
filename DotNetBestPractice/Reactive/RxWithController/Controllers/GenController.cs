@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using RxWithController.Models;
 using RxWithController.Services;
 using System.Reactive.Linq;
 
@@ -18,9 +19,22 @@ namespace RxWithController.Controllers
         [HttpGet("Name")]
         public IActionResult CreateName()
         {
-            var name = _generateService.Name().ToObservable();
+            var r = GetGenerateMessage();
+            
+            return new OkObjectResult(r);
+        }
 
-            return new OkObjectResult(name);
+        private IObservable<GenerateMessage> GetGenerateMessage()
+        {
+            var result = Observable.Create<GenerateMessage>(o => Observable.ToAsync(TestMethod)().Subscribe(o));
+
+            return result;
+        }
+
+        private GenerateMessage TestMethod()
+        {
+            //await Task.CompletedTask;
+            return new GenerateMessage(Guid.NewGuid().ToString());
         }
     }
 }
