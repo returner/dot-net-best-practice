@@ -41,21 +41,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aggregate", "Microservices\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Reactive", "Reactive", "{3F660D8B-5030-472D-92D8-97476E886B9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandardApp", "Reactive\StandardApp\StandardApp.csproj", "{B79B91E6-A452-454A-9C58-7D0561CFDA92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StandardApp", "Reactive\StandardApp\StandardApp.csproj", "{B79B91E6-A452-454A-9C58-7D0561CFDA92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactiveJetFighter", "Reactive\ReactiveJetFighter\ReactiveJetFighter.csproj", "{34BDE233-EC6C-41CD-B9F9-DD13C1F4487E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReactiveJetFighter", "Reactive\ReactiveJetFighter\ReactiveJetFighter.csproj", "{34BDE233-EC6C-41CD-B9F9-DD13C1F4487E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactiveNumbers", "Reactive\ReactiveNumbers\ReactiveNumbers.csproj", "{36468A07-8816-4271-84D1-1E72BC02A692}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReactiveNumbers", "Reactive\ReactiveNumbers\ReactiveNumbers.csproj", "{36468A07-8816-4271-84D1-1E72BC02A692}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyChat", "Reactive\MyChat\MyChat.csproj", "{0666E653-F0E8-43AB-8B35-684E8436BF57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyChat", "Reactive\MyChat\MyChat.csproj", "{0666E653-F0E8-43AB-8B35-684E8436BF57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RxWithController", "Reactive\RxWithController\RxWithController.csproj", "{8C94D782-C096-47B9-B41C-50AED7E2EF37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RxWithController", "Reactive\RxWithController\RxWithController.csproj", "{8C94D782-C096-47B9-B41C-50AED7E2EF37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleReactive", "Reactive\SimpleReactive\SimpleReactive.csproj", "{CD32FFFB-FC21-4561-BB52-3ABDD1BFC04E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleReactive", "Reactive\SimpleReactive\SimpleReactive.csproj", "{CD32FFFB-FC21-4561-BB52-3ABDD1BFC04E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rx.NetinAction", "Rx.NetinAction", "{692A6188-9CB1-4E22-ADE0-F002108E9C2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockTickerApp", "Reactive\Rx.netInAction\StockTickerApp\StockTickerApp.csproj", "{0EC7A5E5-C025-4C37-9D26-1231708B8979}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockTickerApp", "Reactive\Rx.netInAction\StockTickerApp\StockTickerApp.csproj", "{0EC7A5E5-C025-4C37-9D26-1231708B8979}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern", "Reactive\Rx.netInAction\StrategyPattern\StrategyPattern.csproj", "{6E3F0260-885A-46A7-96D9-D7E837BE3A90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LazyLinq", "Reactive\Rx.netInAction\LazyLinq\LazyLinq.csproj", "{C4442C56-E6E6-40D0-A13C-F921CAA114F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YieldReturn", "Reactive\Rx.netInAction\YieldReturn\YieldReturn.csproj", "{9E664D55-BE97-4901-8D68-9FE0C660D42C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -138,6 +144,18 @@ Global
 		{0EC7A5E5-C025-4C37-9D26-1231708B8979}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EC7A5E5-C025-4C37-9D26-1231708B8979}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EC7A5E5-C025-4C37-9D26-1231708B8979}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E3F0260-885A-46A7-96D9-D7E837BE3A90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E3F0260-885A-46A7-96D9-D7E837BE3A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E3F0260-885A-46A7-96D9-D7E837BE3A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E3F0260-885A-46A7-96D9-D7E837BE3A90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4442C56-E6E6-40D0-A13C-F921CAA114F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4442C56-E6E6-40D0-A13C-F921CAA114F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4442C56-E6E6-40D0-A13C-F921CAA114F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4442C56-E6E6-40D0-A13C-F921CAA114F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E664D55-BE97-4901-8D68-9FE0C660D42C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E664D55-BE97-4901-8D68-9FE0C660D42C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E664D55-BE97-4901-8D68-9FE0C660D42C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E664D55-BE97-4901-8D68-9FE0C660D42C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -163,6 +181,9 @@ Global
 		{CD32FFFB-FC21-4561-BB52-3ABDD1BFC04E} = {3F660D8B-5030-472D-92D8-97476E886B9E}
 		{692A6188-9CB1-4E22-ADE0-F002108E9C2A} = {3F660D8B-5030-472D-92D8-97476E886B9E}
 		{0EC7A5E5-C025-4C37-9D26-1231708B8979} = {692A6188-9CB1-4E22-ADE0-F002108E9C2A}
+		{6E3F0260-885A-46A7-96D9-D7E837BE3A90} = {692A6188-9CB1-4E22-ADE0-F002108E9C2A}
+		{C4442C56-E6E6-40D0-A13C-F921CAA114F5} = {692A6188-9CB1-4E22-ADE0-F002108E9C2A}
+		{9E664D55-BE97-4901-8D68-9FE0C660D42C} = {692A6188-9CB1-4E22-ADE0-F002108E9C2A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {107E1050-390F-45B2-BDC0-F171DF26A5F0}
