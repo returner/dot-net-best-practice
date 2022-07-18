@@ -63,6 +63,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LazyLinq", "Reactive\Rx.net
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YieldReturn", "Reactive\Rx.netInAction\YieldReturn\YieldReturn.csproj", "{9E664D55-BE97-4901-8D68-9FE0C660D42C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Reactive\Rx.netInAction\Observer\Observer.csproj", "{CC70DF8E-40D1-43A9-A536-5DB7BA24412B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatService", "Reactive\Rx.netInAction\Chat\ChatService\ChatService.csproj", "{9483F930-131F-42DF-B424-BFCDEAE0D22F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -156,6 +160,14 @@ Global
 		{9E664D55-BE97-4901-8D68-9FE0C660D42C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E664D55-BE97-4901-8D68-9FE0C660D42C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E664D55-BE97-4901-8D68-9FE0C660D42C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC70DF8E-40D1-43A9-A536-5DB7BA24412B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC70DF8E-40D1-43A9-A536-5DB7BA24412B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC70DF8E-40D1-43A9-A536-5DB7BA24412B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC70DF8E-40D1-43A9-A536-5DB7BA24412B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9483F930-131F-42DF-B424-BFCDEAE0D22F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9483F930-131F-42DF-B424-BFCDEAE0D22F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9483F930-131F-42DF-B424-BFCDEAE0D22F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9483F930-131F-42DF-B424-BFCDEAE0D22F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -184,6 +196,8 @@ Global
 		{6E3F0260-885A-46A7-96D9-D7E837BE3A90} = {692A6188-9CB1-4E22-ADE0-F002108E9C2A}
 		{C4442C56-E6E6-40D0-A13C-F921CAA114F5} = {692A6188-9CB1-4E22-ADE0-F002108E9C2A}
 		{9E664D55-BE97-4901-8D68-9FE0C660D42C} = {692A6188-9CB1-4E22-ADE0-F002108E9C2A}
+		{CC70DF8E-40D1-43A9-A536-5DB7BA24412B} = {692A6188-9CB1-4E22-ADE0-F002108E9C2A}
+		{9483F930-131F-42DF-B424-BFCDEAE0D22F} = {692A6188-9CB1-4E22-ADE0-F002108E9C2A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {107E1050-390F-45B2-BDC0-F171DF26A5F0}
